@@ -113,6 +113,26 @@ body {
   background-size: cover;
 }
 
+.card1-service {
+  background-image: url(https://toursbyjeeps.com/wp-content/uploads/2020/07/cambodia-tour-guide.jpg);
+  background-size: cover;
+}
+
+.card2-service {
+  background-image: url(https://www.siemreap.net/wp-content/uploads/2019/02/Rambutan-Hotel-Resort.jpg);
+  background-size: cover;
+}
+
+.card3-service {
+  background-image: url(https://toursbyjeeps.com/wp-content/uploads/2019/09/jeep-tour-angkor-wat-1-800x500.jpg);
+  background-size: cover;
+}
+
+.card4-service {
+  background-image: url(https://siemreaper.com/wp-content/uploads/2018/07/cycle-the-floating-village-siem-reap.jpg);
+  background-size: cover;
+}
+
 .text-caption {
   text-shadow: 0.1rem, 0.1rem, 0.8rem, black;
   text-decoration: none;
@@ -252,5 +272,12 @@ main h2 {
 .banner-image {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Ankor_Wat_temple.jpg/1200px-Ankor_Wat_temple.jpg);
   background-size: cover;
+  background-color: rgba(0,0,0,0.5);
+            
+
 }
 
+.card {
+  background-size: cover;
+  border-radius: 0;
+}
