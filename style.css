@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
@@ -138,4 +141,103 @@ body {
     margin-right: auto; */
 }
 
+.bayon-logo {
+    text-align: center;
+}
 
+.bayon-logo img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+main {
+    text-align: center;
+}
+
+.bayon-text {
+    color: #fec737;
+    font-family: Offside;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+  }
+
+main h1 {
+    color: #333;
+    font-family: Roboto;
+    font-weight: SemiBold;
+    font-size: 32px;
+    opacity: 1;
+}
+
+main h2 {
+    margin: 50px auto;
+    color: #fec737;
+    font-family: Roboto;
+    font-size: 40px;
+}
+
+.cambodia-map img {
+    max-width: 80%;
+}
+
+.why-choose-us ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.why-choose-us-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 45%;
+    justify-content: center;
+}
+
+.why-choose-us li img{
+    max-width: 80%;
+    max-height: auto;
+}
+
+.why-choose-us li:nth-child(1) {
+    text-align: left;
+}
+
+.gallary ul {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 20px;
+}
+
+.gallary li {
+    margin: auto;
+}
+
+.gallary li img{
+    max-width: 400px;
+    max-height: auto;
+    border-radius: 10px;
+}
+
+.services ul {
+    display: flex;
+    justify-content: center;
+}
+
+.services li {
+    margin: 50px auto;
+}
+
+.services h2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.services p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
