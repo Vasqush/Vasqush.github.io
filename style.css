@@ -246,3 +246,11 @@ main h2 {
 .footer-bayon {
   background-color: #F5F5F5;
 }
+
+
+
+.banner-image {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Ankor_Wat_temple.jpg/1200px-Ankor_Wat_temple.jpg);
+  background-size: cover;
+}
+
