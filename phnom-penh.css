@@ -1,0 +1,51 @@
+main {
+    text-align: center;
+}
+
+.img-bg {
+    height: 800px;
+    background-image: url('/images/monument.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    margin: 50px auto;
+    max-width: 90%;
+}
+
+.place-togo ul {
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.place-togo li {
+    margin: 20px auto;
+    max-width: 90%;
+    box-shadow: 2px 4px 8px rgb(122, 122, 122);
+}
+
+.place-togo h3 {
+    color: cadetblue;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.place-togo article {
+    margin: auto;
+    padding: 20px auto;
+    max-width: 90%;
+}
+
+.place-togo article p {
+    margin: 0;
+    padding: 20px;
+}
+
+.place-togo li img {
+    max-width: 80%;
+}
