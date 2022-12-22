@@ -4,7 +4,7 @@ main {
 
 .img-bg {
     height: 800px;
-    background-image: url('/images/kampot-city-view-sky-cambodia-photo-city-view-kampot-province_497058-1116.jpg');
+    background-image: url('images/kampot-city-view-sky-cambodia-photo-city-view-kampot-province_497058-1116.jpg');
     background-position: center;
     background-size: cover;
 }
