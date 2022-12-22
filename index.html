@@ -31,16 +31,21 @@
         <div class="collapse navbar-collapse ul-bg mt-3 mb-3" id="btn">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
+              <div class="search">
+                <div class="icon"></div>
+                <div class="input">
+                  <input type="text" placeholder="Search" id="mysearch">
+                </div>
+                <span class="clear" onclick="document.getElementById('mysearch').value= ''"></span>
+              </div>
+            </li>
+            <li class="nav-item">
               <a class="nav-link mx-3 text-white" href="services.html"
                 ><i class="fa fa-thin fa-hand-holding-heart mx-1"></i
                 >SERVICES</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link mx-3 text-white" href=""
-                ><i class="fa-solid fa-magnifying-glass mx-1"></i>SEARCH</a
-              >
-            </li>
+          
             <li class="nav-item">
               <a class="nav-link mx-3 text-white" href=""
                 ><i class="fa fa-thin fa-phone mx-1"></i>CONTACT</a
@@ -161,7 +166,7 @@
     <main>
       <div class="top-main">
         <div class="bayon-logo">
-          <img src="/images/bayon-logo.jpg" alt="bayon-logo" />
+          <img src="images/bayon-logo.jpg" alt="bayon-logo" />
           <p class="bayon-text">Bayon Tour</p>
         </div>
 
@@ -174,7 +179,7 @@
       </div>
 
       <div class="cambodia-map">
-        <img src="/images/Cambodia Map.png" alt="Cambodia-map" />
+        <img src="images/Cambodia Map.png" alt="Cambodia-map" />
       </div>
 
       <div class="why-choose-us">
@@ -209,7 +214,7 @@
             </p>
           </li>
           <li>
-            <img src="/images/customer-support.png" alt="customer-support" />
+            <img src="images/customer-support.png" alt="customer-support" />
           </li>
         </ul>
       </div>
@@ -218,31 +223,31 @@
         <h2>Our Gallary</h2>
         <ul>
           <li>
-            <img src="/images/pexels-monyserei-ra-9939690.jpg" alt="" />
+            <img src="images/pexels-monyserei-ra-9939690.jpg" alt="" />
           </li>
           <li>
-            <img src="/images/pexels-petra-m-greening-12759383.jpg" alt="" />
+            <img src="images/pexels-petra-m-greening-12759383.jpg" alt="" />
           </li>
           <li>
-            <img src="/images/pexels-sovannpailin-heng-13151818.jpg" alt="" />
+            <img src="images/pexels-sovannpailin-heng-13151818.jpg" alt="" />
           </li>
           <li>
-            <img src="/images/sihanouk.jpg" alt="" />
+            <img src="images/sihanouk.jpg" alt="" />
           </li>
           <li>
-            <img src="/images/independent.jpg" alt="" />
+            <img src="images/independent.jpg" alt="" />
           </li>
           <li>
-            <img src="/images/phnompenh.jpg" alt="" />
+            <img src="images/phnompenh.jpg" alt="" />
           </li>
           <li>
-            <img src="/images/kampot.jpg" alt="" />
+            <img src="images/kampot.jpg" alt="" />
           </li>
           <li>
-            <img src="/images/sr.jfif" alt="" />
+            <img src="images/sr.jfif" alt="" />
           </li>
           <li>
-            <img src="/images/boko.jpg" alt="" />
+            <img src="images/boko.jpg" alt="" />
           </li>
         </ul>
       </div>
@@ -357,5 +362,13 @@
         }
       });
     </script>
+      <script>
+        const icon =document.querySelector('.icon');
+        const search =document.querySelector('.search');
+        icon.onclick = function(){
+          search.classList.toggle('active')
+  
+        }
+      </script>
   </body>
 </html>
