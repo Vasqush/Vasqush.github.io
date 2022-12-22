@@ -49,3 +49,7 @@ main {
 .place-togo li img {
     max-width: 80%;
 }
+
+.logo {
+  width: 50px;
+}

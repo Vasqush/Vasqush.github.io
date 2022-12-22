@@ -7,6 +7,7 @@ main {
     background-image: url(images/monument.webp);
     background-position: center;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .content {
@@ -48,4 +49,8 @@ main {
 
 .place-togo li img {
     max-width: 80%;
+}
+
+.logo {
+  width: 50px;
 }
