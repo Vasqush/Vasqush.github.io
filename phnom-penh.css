@@ -4,7 +4,7 @@ main {
 
 .img-bg {
     height: 800px;
-    background-image: url('/images/monument.webp');
+    background-image: url(images/monument.webp);
     background-position: center;
     background-size: cover;
 }
