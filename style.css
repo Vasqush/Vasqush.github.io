@@ -198,7 +198,23 @@ body {
 
 .card {
   background-image: url(images/pexels-daniel-lazarov-2762920.jpg);
-  border-radius: 0;
+  border-radius: 10px;
+  top: 0;
+  transition: top ease 0.5s;
+ 
+}
+
+.card:hover {
+  transform: scale(1.1);
+  top: -10px;
+}
+
+
+.d-flex:hover {
+  box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75)
+  /* top: -10px; */
+  
+
 }
 
 .hero {
@@ -281,7 +297,7 @@ main {
 
 .bayon-text {
     color: #fec737;
-    font-family: Offside;
+    /* font-family: Offside; */
     font-weight: Regular;
     font-size: 20px;
     opacity: 1;
@@ -289,7 +305,7 @@ main {
 
 main h1 {
     color: #333;
-    font-family: Roboto;
+    /* font-family: Roboto; */
     font-weight: SemiBold;
     font-size: 32px;
     opacity: 1;
@@ -298,7 +314,7 @@ main h1 {
 main h2 {
     margin: 50px auto;
     color: #fec737;
-    font-family: Roboto;
+    /* font-family: Roboto; */
     font-size: 40px;
 }
 
@@ -321,7 +337,7 @@ main h2 {
 }
 
 .why-choose-us-text {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     max-width: 45%;
     justify-content: center;
 }
@@ -364,12 +380,12 @@ main h2 {
 
 .services h2 {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     font-weight: 700;
 }
 
 .services p {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     font-weight: 500;
 }
 
@@ -391,3 +407,23 @@ main h2 {
   background-size: cover;
   border-radius: 0;
 }
+
+
+.carousel-item {
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  width: 50px;
+}
+
+.car-image {
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+
