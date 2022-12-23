@@ -6,7 +6,7 @@
   header{
     width: 100%;
     padding:20px 0px;
-    background-color: grey;
+    background-color:#557153;
     display: inline-flex;
 
   }
@@ -14,6 +14,9 @@
     color: white;
     margin-left: 10px;
 
+  }
+    body{
+    font-family: 'Lato', sans-serif;
   }
 
 a:hover{
