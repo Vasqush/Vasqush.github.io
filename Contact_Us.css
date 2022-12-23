@@ -298,6 +298,8 @@ input[type=text], input[type=password] {
   align-items: center;
 }
 
+
+
 .search .input input{
   position: absolute;
   top: -15px;
