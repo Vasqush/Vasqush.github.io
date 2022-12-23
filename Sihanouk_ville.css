@@ -5,12 +5,14 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
-
 body {
   overflow-x: hidden;
   font-family: "Lato", sans-serif;
   font-weight: 500;
+}
+
+main {
+  text-align: center;
 }
 
 nav, section, footer {
@@ -200,10 +202,10 @@ main {
 
 .caption {
   background-image: url("sihanoukville.jpg");
-  background-position: 50%;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-box-align: center;
+  height: 800px;
   align-items: center;
   color: #fff;
   display: block; 
@@ -215,10 +217,25 @@ main {
   overflow: hidden;
 }
 
-.page-intro>.container {
-  align-items: center; 
-  justify-content: center;
-  height: 100%;
+.container h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-shadow: 0.1rem, 0.1rem, 0.8rem, black;
+  padding-bottom: 1rem;
+}
+
+.container h3 {
+  font-size: 2rem;
+  text-shadow: 0.1rem, 0.1rem, 0.5rem, black;
+  padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  font-size: 1.1rem;
+  padding: 0.6rem 1.3rem;
 }
 
 .intro-content {
@@ -234,15 +251,49 @@ main {
 }
 
 .content {
-  padding: 2.5rem 0;
-  position: relative;
-  margin: 3rem 0;
-  align-items: center;
-  width: 100%;
+  margin: 50px auto;
+  max-width: 90%;
 }
 
 .ind {
   text-indent: 2rem;
+}
+
+.place-togo ul {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.place-togo li {
+  list-style: none;
+  margin: 20px auto;
+  max-width: 90%;
+  box-shadow: 2px 4px 8px rgb(122, 122, 122);
+}
+
+.place-togo h3 {
+  color: cadetblue;
+  margin: 0;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.place-togo article {
+  margin: auto;
+  padding: 20px auto;
+  max-width: 90%;
+}
+
+.place-togo article p {
+  margin: 0;
+  padding: 20px;
+}
+
+.place-togo li img {
+  max-width: 80%;
 }
 
 h2 {
@@ -250,21 +301,9 @@ h2 {
   font-weight: 400;
   line-height: 1.2;
   margin: 3rem 2rem;
+  color:#fec737;
 }
 
-h5 {
-  font-weight: 600;
-}
-
-p {
-  text-align: left;
-  line-height: 1.6;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
 
 .footer-bayon {
     background-color: #F5F5F5;
